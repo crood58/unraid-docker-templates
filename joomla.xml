@@ -11,8 +11,8 @@
   <Overview>Joomla! is an open source content management system.</Overview>
   <Category>Other:</Category>
   <WebUI>http://[IP]:[PORT:80]</WebUI>
-  <TemplateURL/>
-  <Icon>https://docs.joomla.org/images/5/53/Vertical-logo-light-background-en.png</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/crood58/unraid-docker-templates/main/joomla.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/crood58/unraid-docker-templates/main/images/joomla.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
