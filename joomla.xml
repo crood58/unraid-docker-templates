@@ -13,11 +13,6 @@
   <WebUI>http://[IP]:[PORT:80]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/crood58/unraid-docker-templates/main/joomla.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/crood58/unraid-docker-templates/main/images/joomla.png</Icon>
-  <ExtraParams/>
-  <PostArgs/>
-  <CPUset/>
-  <DonateText/>
-  <DonateLink/>
   <Requires>Requires MYSQL DB or MariaDB</Requires>
   <Config Name="Joomla Data" Target="/var/www/html" Default="" Mode="rw" Description="Where the data of the joomla site will be store, such as files and images." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/joomla</Config>
   <Config Name="Port" Target="80" Default="80" Mode="tcp" Description="The port which will server the joomla site." Type="Port" Display="always" Required="true" Mask="false">80</Config>
@@ -30,5 +25,4 @@
   <Config Name="Admin Username" Target="JOOMLA_ADMIN_USERNAME" Default="" Mode="" Description="The username for the administrator." Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="Admin Password" Target="" Default="" Mode="" Description="The password for the administrator." Type="Variable" Display="always" Required="false" Mask="true"/>
   <Config Name="Admin Email" Target="JOOMLA_ADMIN_EMAIL" Default="" Mode="" Description="Email address for the administrator." Type="Variable" Display="always" Required="false" Mask="false"/>
-  <TailscaleStateDir/>
 </Container>
